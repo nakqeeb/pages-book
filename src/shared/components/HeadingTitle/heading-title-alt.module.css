@@ -1,0 +1,19 @@
+.heading-title-alt {
+  width: fit-content;
+  position: relative;
+}
+.heading-title-alt::after {
+  content: "";
+  width: 20%;
+  height: 3px;
+  background-color: var(--yellow-color);
+  position: absolute;
+  left: 0;
+  transition: var(--main-transition);
+}
+.heading-title-alt:hover:after {
+  width: 100%;
+}
+.heading-title-alt p {
+  margin: 0 0 20px 0;
+}

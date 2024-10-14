@@ -1,0 +1,53 @@
+.trusted_by {
+  padding-top: var(--main-padding-top);
+  padding-bottom: var(--main-padding-bottom);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.content {
+  width: 1299px;
+  height: 219px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 97px;
+}
+.box {
+  width: 248px;
+  height: 218px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.amazon_img {
+  width: 95.22px;
+  height: 88.98px;
+}
+.megan_img {
+  width: 188.82px;
+  height: 75.15px;
+}
+.los_img {
+  width: 140.89px;
+  height: 88.42px;
+}
+.urban_img {
+  width: 99.77px;
+  height: 99.77px;
+}
+.box > p {
+  color: var(--blue-color);
+  margin: 0;
+}
+.box p:last-child {
+  color: var(--gray-color-1);
+  line-height: 180%;
+  margin: 0;
+}

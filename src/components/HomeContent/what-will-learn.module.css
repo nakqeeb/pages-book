@@ -1,0 +1,74 @@
+.learn {
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+}
+.container {
+    width: 1300px;
+    height: 819px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 53px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 99px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+}
+.card {
+    background-color: var(--background-color);
+    /* width: 290px; */
+    height: 299px;
+    padding: 41px 33px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 31px;
+}
+.number {
+    background-color: var(--yellow-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.number p {
+    color: var(--blue-color);
+    margin: 0;
+}
+.card > p {
+    color: var(--blue-color);
+    margin: 0;
+    line-height: 140%;
+}
+.image {
+    width: 550px;
+    height: 650px;
+    position: relative;
+  }
+  .image::after {
+    content: "";
+    width: 550px;
+    height: 650px;
+    border: 12px solid var(--yellow-color);
+    position: absolute;
+    left: 25px;
+    bottom: -50px;
+  }
+  .image img {
+    width: 550px;
+    height: 650px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 3px 8px 20px 0px rgb(0 0 0 / 18%);
+  }

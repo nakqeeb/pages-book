@@ -1,0 +1,10 @@
+.custom-button {
+  /* background-color: transparent; */
+  border: none;
+  /* color: var(--white-color); */
+  padding: 13px 33px;
+  transition: var(--main-transition);
+}
+/* .custom-button:hover {
+  background-color: var(--green-color-alt);
+} */

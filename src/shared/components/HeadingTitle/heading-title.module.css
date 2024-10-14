@@ -1,0 +1,47 @@
+.heading-title {
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+.heading-title::after {
+  content: "";
+  width: 20%;
+  height: 3px;
+  background-color: var(--yellow-color);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: var(--main-transition);
+}
+.heading-title:hover:after {
+  width: 100%;
+}
+.heading-title p {
+  margin: 0 0 20px 0;
+}
+
+/* Blue underline style */
+.heading-title-b {
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+.heading-title-b::after {
+  content: "";
+  width: 20%;
+  height: 3px;
+  background-color: var(--blue-color);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: var(--main-transition);
+}
+.heading-title-b:hover:after {
+  width: 100%;
+}
+.heading-title-b p {
+  margin: 0 0 20px 0;
+  color: var(--blue-color);
+}

@@ -1,0 +1,16 @@
+
+.rating {}
+.rating div {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid #FFCA42;
+    border-radius: 50px;
+}
+.full_dot {
+  background-color: #FFCA42;
+}
+.half_dot {
+  background: linear-gradient(90deg, #FFCA42 50%, #FFFFFF 50%);
+}
