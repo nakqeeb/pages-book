@@ -21,13 +21,13 @@ import NotFoundPage from "./pages/NotFoundPage";
 function App() {
   let routes = (
     <Routes>
-      <Route path="/pages-book/home/" element={<HomePage />} />
-      <Route path="/pages-book/about" element={<AboutPage />} />
-      <Route path="/pages-book/store" element={<StorePage />} />
-      <Route path="/pages-book/store/:productId" element={<SingleProductPage />} />
-      <Route path="/pages-book/blog" element={<BlogPage />} />
-      <Route path="/pages-book/blog/:blogId" element={<SingleBlogPage />} />
-      <Route path="/pages-book/contact" element={<ContactUsPage />} />
+      <Route path="/pages-book" element={<HomePage />} />
+      <Route path="/about" element={<AboutPage />} />
+      <Route path="/store" element={<StorePage />} />
+      <Route path="/store/:productId" element={<SingleProductPage />} />
+      <Route path="/blog" element={<BlogPage />} />
+      <Route path="/blog/:blogId" element={<SingleBlogPage />} />
+      <Route path="/contact" element={<ContactUsPage />} />
       <Route path="*" element={<NotFoundPage />} />
       {/* <Route path="/" element={<Users />} />
       <Route path="/:userId/places" element={<UserPlaces />} />

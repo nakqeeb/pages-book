@@ -42,23 +42,23 @@ function Header() {
         <div className={styles.right_side}>
           <ul>
             <li>
-              <NavLink to="/pages-book/home">Home</NavLink>
+              <NavLink to="/pages-book">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/pages-book/store">Pages</NavLink>
+              <NavLink to="/store">Pages</NavLink>
             </li>
             <li>
-              <NavLink to="/pages-book/about">About</NavLink>
+              <NavLink to="/about">About</NavLink>
             </li>
             <li>
               {/* <NavLink to="/services">Services</NavLink> */}
-              <NavLink to="/pages-book/blog">Blog</NavLink>
+              <NavLink to="/blog">Blog</NavLink>
             </li>
             <li>
-              <NavLink to="/pages-book/contact">Contact</NavLink>
+              <NavLink to="/contact">Contact</NavLink>
             </li>
             <li>
-              <NavLink to="/pages-book/cart">
+              <NavLink to="/cart">
                 <div className={styles.cart}>
                   <FontAwesomeIcon
                     className={styles.cart_icon}
