@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/pages-book/static/css/main.b7385da3.css",
-    "main.js": "/pages-book/static/js/main.fbb28214.js",
+    "main.css": "/pages-book/static/css/main.b4896c57.css",
+    "main.js": "/pages-book/static/js/main.86686a6e.js",
     "static/js/453.fa0a7bba.chunk.js": "/pages-book/static/js/453.fa0a7bba.chunk.js",
     "static/media/CD.svg": "/pages-book/static/media/CD.85c97658a0293ec0b05c8df0aa92756e.svg",
     "static/media/author_img_1.jpg": "/pages-book/static/media/author_img_1.306602b4dba7f690a643.jpg",
     "static/media/author_img.png": "/pages-book/static/media/author_img.7ba967d64506528a86ea.png",
+    "static/media/not_found.jpg": "/pages-book/static/media/not_found.a93db9bb33415fb33fee.jpg",
     "static/media/man3.jpg": "/pages-book/static/media/man3.aa9524478e0ca6fd773c.jpg",
     "static/media/Book.svg": "/pages-book/static/media/Book.147dd9689c4db76556c7600d65c5f30a.svg",
     "static/media/history_img.jpg": "/pages-book/static/media/history_img.cf5325958d0a1909238c.jpg",
@@ -35,12 +36,12 @@
     "static/media/user.svg": "/pages-book/static/media/user.3293c548ceb585935690b17cfcc63535.svg",
     "static/media/guard.svg": "/pages-book/static/media/guard.29bd2ecf95dbd911e02360ace1f10ae4.svg",
     "static/media/mail.svg": "/pages-book/static/media/mail.0155136e19cebd6b2ddc01a1cd57cb10.svg",
-    "main.b7385da3.css.map": "/pages-book/static/css/main.b7385da3.css.map",
-    "main.fbb28214.js.map": "/pages-book/static/js/main.fbb28214.js.map",
+    "main.b4896c57.css.map": "/pages-book/static/css/main.b4896c57.css.map",
+    "main.86686a6e.js.map": "/pages-book/static/js/main.86686a6e.js.map",
     "453.fa0a7bba.chunk.js.map": "/pages-book/static/js/453.fa0a7bba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7385da3.css",
-    "static/js/main.fbb28214.js"
+    "static/css/main.b4896c57.css",
+    "static/js/main.86686a6e.js"
   ]
 }
