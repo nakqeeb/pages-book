@@ -5,9 +5,10 @@ import {
   faLinkedinIn,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-import logo from "../../../assets/images/Logo.png";
+import logo from "../../../assets/images/Logo.svg";
 import { faCartShopping } from "@fortawesome/free-solid-svg-icons";
 import CustomButton from "../UIElements/CustomButton";
+import { NavLink } from "react-router-dom";
 function Header() {
   return (
     <div className={styles.header}>
@@ -40,19 +41,35 @@ function Header() {
         </div>
         <div className={styles.right_side}>
           <ul>
-            <li>Home</li>
-            <li>Pages</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Contact</li>
             <li>
-              <div className={styles.cart}>
-                <FontAwesomeIcon className={styles.cart_icon} icon={faCartShopping} />
-                <div className={styles.cart_badge}>01</div>
-              </div>
+              <NavLink to="/home">Home</NavLink>
             </li>
             <li>
-                <CustomButton className={styles.order_btn} name="Order Today" />
+              <NavLink to="/store">Pages</NavLink>
+            </li>
+            <li>
+              <NavLink to="/about">About</NavLink>
+            </li>
+            <li>
+              {/* <NavLink to="/services">Services</NavLink> */}
+              <NavLink to="/blog">Blog</NavLink>
+            </li>
+            <li>
+              <NavLink to="/contact">Contact</NavLink>
+            </li>
+            <li>
+              <NavLink to="/cart">
+                <div className={styles.cart}>
+                  <FontAwesomeIcon
+                    className={styles.cart_icon}
+                    icon={faCartShopping}
+                  />
+                  <div className={styles.cart_badge}>01</div>
+                </div>
+              </NavLink>
+            </li>
+            <li>
+              <CustomButton className={styles.order_btn} name="Order Today" />
             </li>
           </ul>
         </div>

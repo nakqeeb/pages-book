@@ -1,0 +1,42 @@
+.subscribe {
+  padding-top: var(--main-padding-top);
+  padding-bottom: var(--main-padding-bottom);
+}
+.container {
+  width: 1300px;
+  background-color: var(--yellow-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 121px 230px;
+  text-align: center;
+  gap: 20px;
+}
+.msg {
+  color: var(--blue-color);
+  line-height: 180%;
+}
+.sub_form {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.sub_form input {
+  width: 529px;
+  height: 65px;
+  padding-left: 20px;
+  border: none;
+}
+.sub_form input::placeholder {
+  transition: opacity var(--main-transition);
+}
+.sub_form input:focus::placeholder {
+  opacity: 0;
+}
+.sub_btn {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  width: 300px;
+  height: 64px;
+}

@@ -1,0 +1,134 @@
+.product_info {
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+  }
+  .container {
+    width: 1297px;
+    height: 1056px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+  }
+  .content {
+    display: flex;
+    align-items: center;
+    gap: 86px;
+  }
+  .image {
+    width: 580px;
+    height: 650px;
+    background-color: #f5f8fc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+  }
+  .book_img {
+    width: 380px;
+    height: 509px;
+    box-shadow: 3px 8px 20px 0px rgb(0 0 0 / 18%);
+  }
+  .info {
+    width: 631px;
+    height: 604px;
+  }
+  .title_price {
+    margin-bottom: 26px;
+  }
+  .title {
+    color: var(--blue-color);
+    margin: 0 0 20px 0;
+  }
+  .price {
+    color: var(--yellow-color);
+    margin: 0;
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .price span {
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .details {}
+  .description {
+    color: var(--gray-color-1);
+    line-height: 180%;
+    margin: 0;
+  }
+  .sub_description {
+    color: var(--gray-color-1);
+    line-height: 180%;
+  }
+  .input_btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 34px;
+  }
+  .input_field {
+    width: 120px;
+    height: 65px;
+    border: 1px solid var(--yellow-color);
+    text-align: center;
+  }
+  .input_field::placeholder {
+    transition: opacity var(--main-transition);
+  }
+  .input_field:focus::placeholder {
+    opacity: 0;
+  }
+  .cart_btn {
+    background-color: var(--yellow-color);
+    color: var(--blue-color);
+    height: 65px;
+    width: 377.45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+  .sub_content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+  }
+  .tabs {
+    display: flex;
+    gap: 50px;
+  }
+  .desc_tab {
+    width: 315px;
+    height: 65px;
+    background-color: var(--blue-color);
+    color: var(--white-color);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+  .info_tab {
+    width: 315px;
+    height: 65px;
+    background-color: var(--gray-color);
+    color: var(--blue-color);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+  .desc_info {
+    display: flex;
+    gap: 92px;
+  }
+  .question {
+    color: var(--blue-color);
+  }
+  .answer {
+    color: var(--gray-color-1);
+    line-height: 180%;
+    margin: 0;
+  }

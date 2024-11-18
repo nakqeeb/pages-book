@@ -1,0 +1,12 @@
+.articales {
+    padding-top: var(--main-padding-top);
+    padding-bottom: var(--main-padding-bottom);
+    background-color: var(--background-color);
+}
+.container {
+    width: 1300px;
+    height: 1920px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 35px;
+}

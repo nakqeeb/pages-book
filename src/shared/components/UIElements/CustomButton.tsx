@@ -18,9 +18,9 @@ const CustomButton: FC<{
       type={type}
       disabled={disabled}
     >
-      {ischildrenLeft && children}
+      {ischildrenLeft && <span>{children}</span>}
       {name}
-      {!ischildrenLeft && children}
+      {!ischildrenLeft && <span>{children}</span>}
     </button>
   );
 };

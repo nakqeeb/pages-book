@@ -1,0 +1,125 @@
+.contact {
+  padding-top: var(--main-padding-top);
+  padding-bottom: var(--main-padding-bottom);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 106px;
+}
+.content {
+  width: 523px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.title_desc {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+}
+.title {
+  color: var(--blue-color);
+  margin: 0;
+}
+.desc {
+  color: var(--gray-color-1);
+  line-height: 180%;
+  margin: 0;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.fields {
+  width: 606px;
+}
+.fields input,
+.fields textarea {
+  border: 1px solid var(--gray-color-1);
+  padding-left: 60px;
+}
+.fields textarea {
+    padding-top: 20px;
+}
+.fields input::placeholder,
+.fields textarea::placeholder {
+  transition: opacity var(--main-transition);
+}
+.fields input:focus::placeholder,
+.fields textarea:focus::placeholder {
+  opacity: 0;
+}
+.fields input:focus,
+.fields textarea:focus {
+    outline: none;
+    border: 2px solid var(--yellow-color);
+}
+.fields form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.name_email_row {
+  display: flex;
+  gap: 8px;
+}
+.fields input[type="text"],
+.fields [type="email"] {
+  width: 299px;
+  height: 65px;
+}
+.fields input[type="email"] {
+}
+.fields input[type="tel"] {
+  width: 606px;
+  height: 65px;
+}
+.fields textarea {
+  width: 606px;
+  height: 220px;
+}
+.row_icon {
+    position: relative;
+}
+.phone_row {
+    position: relative;
+}
+.message_row {
+    position: relative;
+}
+.icon {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+}
+.edit_icon {
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    left: 15px;
+}
+.check_row {
+    display: flex;
+    justify-content: space-between;
+}
+.check_row input[type="checkbox"] {
+    width: 25px;
+}
+.check_row p {
+  color: var(--gray-color-1);
+  line-height: 180%;
+  margin: 0;
+}
+
+.btn {
+    height: 65px;
+    background-color: var(--yellow-color);
+    color: var(--blue-color);
+    margin-top: 12px;
+}

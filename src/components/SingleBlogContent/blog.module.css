@@ -1,0 +1,120 @@
+.blog {
+  padding-top: var(--main-padding-top);
+  padding-bottom: var(--main-padding-bottom);
+}
+.container {
+  width: 1299px;
+  height: 1698px;
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+.image_content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.image_content img {
+  width: 1299px;
+  height: 767px;
+}
+.image_content .head_title {
+  color: var(--blue-color);
+  margin: 0;
+}
+.image_content .body {
+  color: var(--gray-color-1);
+  line-height: 180%;
+  margin: 0;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.content .head_title {
+  color: var(--blue-color);
+  margin: 0;
+}
+.content p.body {
+  color: var(--gray-color-1);
+  line-height: 180%;
+  margin: 0;
+}
+.content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 25px;
+}
+.content li {
+  color: var(--blue-color);
+  position: relative;
+  margin-left: 75px;
+}
+.content li::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  background-color: var(--yellow-color);
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -30px;
+}
+.quotes {
+  padding: 53px 84px;
+  background-color: var(--blue-color);
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.quotes::before,
+.quotes::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 48px;
+  background-color: var(--yellow-color);
+  transform: skewY(-45deg);
+}
+
+.quotes::before {
+  top: -12px;
+  left: 20px;
+}
+
+.quotes::after {
+  top: -12px;
+  left: 60px;
+}
+.quotes p {
+  text-align: center;
+  margin: 0;
+  color: var(--white-color);
+}
+.sub_content {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.sub_content .head_title {
+  color: var(--blue-color);
+  margin: 0;
+}
+.sub_content p.body {
+  color: var(--gray-color-1);
+  line-height: 180%;
+  margin: 0;
+}
+.sub_content ol {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 22px;
+}
+.sub_content li {
+  color: var(--blue-color);
+  margin-left: 35px;
+}

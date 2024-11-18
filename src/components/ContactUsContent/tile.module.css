@@ -1,0 +1,24 @@
+.tile {
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+.image {
+    width: 65px;
+    height: 65px;
+    background-color: var(--blue-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img {}
+.meta {}
+.meta_title {
+    color: var(--blue-color);
+    margin: 0;
+}
+.meta_desc {
+    color: var(--gray-color-1);
+    line-height: 180%;
+    margin: 0;
+}

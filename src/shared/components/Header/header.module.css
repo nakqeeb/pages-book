@@ -57,6 +57,9 @@
 .right_side {
     width: 742px;
 }
+a {
+  color: var(--white-color);
+}
 .right_side ul {
     display: flex;
     justify-content: flex-end;

@@ -1,0 +1,26 @@
+.banner {
+    background-color: var(--blue-color);
+    margin-top: var(--header-height);
+    height: calc(527px - var(--header-height));
+  }
+  .container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(var(--header-height));
+    gap: 28px;
+    width: 633px;
+  }
+
+  .about {
+    margin: 0;
+  }
+
+  .meta_info {
+    color: var(--blue-gray-color);
+    margin: 0;
+    line-height: 180%;
+    text-align: center;
+  }
